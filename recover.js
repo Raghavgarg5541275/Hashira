@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const fileContent = fs.readFileSync("shares1.json", "utf8");
+const fileContent = fs.readFileSync("shares.json", "utf8");
 const data = JSON.parse(fileContent);
 
 let shares = [];
